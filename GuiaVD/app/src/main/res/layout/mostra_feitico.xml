@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.kg.matheus.guiavd.MostraFeitico"
+    android:weightSum="1"
+    android:background="#E0C266">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/feitico_title"
+        android:textStyle="bold"
+        android:textColor="#0000ff"
+        android:textSize="40sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:id="@+id/feitico_descricao"
+        android:layout_marginTop="59dp"
+        android:layout_below="@+id/feitico_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/feitico_title"
+        android:layout_alignEnd="@+id/feitico_title"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

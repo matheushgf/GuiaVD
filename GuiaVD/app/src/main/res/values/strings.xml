@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Guia VD</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tela__feiticos">Tela_Feiticos</string>
+    <string name="title_activity_tela_feiticos">TelaFeiticos</string>
+    <string name="title_activity_mostra_feitico">Feitiço</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
